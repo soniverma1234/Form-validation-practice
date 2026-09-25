@@ -138,8 +138,7 @@ const StudentForm = () => {
   });
 
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = () => {
 
     Swal.fire({
       title: "Registration Successful!",
@@ -163,7 +162,6 @@ const StudentForm = () => {
           Student Registration Form
         </h1>
 
-        {/* FIRST NAME */}
 
         <div className="mb-5">
           <label className="block font-semibold mb-2">

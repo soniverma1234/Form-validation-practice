@@ -42,8 +42,7 @@ const MiniForm = () => {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = () => {
 
     Swal.fire({
       title: "Success!",
